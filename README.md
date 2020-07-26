@@ -1,2 +1,4 @@
 # ResGCNv1
-ResGCN: an efficient baseline for skeleton-based human action recognition.
+An efficient baseline for skeleton-based human action recognition.
+
+The code and pretrained models of resgcn are coming soon.
