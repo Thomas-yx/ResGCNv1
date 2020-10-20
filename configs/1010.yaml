@@ -13,12 +13,12 @@ visualization_frames: []
 
 # Data Loader
 # ntu-xsub, ntu-xview, ntu-xsub120, ntu-xset120
-dataset: ntu-xsub
+dataset: ntu-xview
 dataset_args:
   ntu:
     train_batch_size: 32
     eval_batch_size: 64
-    preprocess: False
+    preprocess: True
     path: /data1/yifan.song/SkeletonPreprocess
     ntu60_data_path: /data1/yifan.song/NTU_RGBD/nturgbd_skeletons_s001_to_s017
     ntu120_data_path: /data1/yifan.song/NTU_RGBD/nturgbd_skeletons_s018_to_s032
@@ -27,7 +27,7 @@ dataset_args:
 # pa, ca, fa, sa, pca, psa
 # b15, b19, b23, b29, n39, n51, n57, n75
 # r1, r2, r4, r8
-model_type: resgcn-n51-r4
+model_type: pa-resgcn-n51-r4
 model_args:
   kernel_size: [9,2]
 

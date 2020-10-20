@@ -13,7 +13,7 @@ visualization_frames: []
 
 # Data Loader
 # ntu-xsub, ntu-xview, ntu-xsub120, ntu-xset120
-dataset: ntu-xsub
+dataset: ntu-xset120
 dataset_args:
   ntu:
     train_batch_size: 32

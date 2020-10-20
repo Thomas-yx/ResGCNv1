@@ -27,7 +27,7 @@ dataset_args:
 # pa, ca, fa, sa, pca, psa
 # b15, b19, b23, b29, n39, n51, n57, n75
 # r1, r2, r4, r8
-model_type: resgcn-n51-r4
+model_type: resgcn-b19
 model_args:
   kernel_size: [9,2]
 
