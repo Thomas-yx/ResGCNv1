@@ -27,7 +27,7 @@ pip install -r scripts/requirements.txt
 
 ### 2.2 Experimental Dataset
 
-Our models are experimented on the **NTU RGB+D 60 & 120** datasets, which can be download from 
+Our models are experimented on the **NTU RGB+D 60 & 120** datasets, which can be downloaded from 
 [here](http://rose1.ntu.edu.sg/datasets/actionrecognition.asp).
 
 There are 302 samples of **NTU RGB+D 60** and 532 samples of **NTU RGB+D 120** need to be ignored, which are shown in the **'src/preprocess/ignore.txt'**.
@@ -36,7 +36,7 @@ There are 302 samples of **NTU RGB+D 60** and 532 samples of **NTU RGB+D 120** n
 
 Several pretrained models are provided, which include **ResGCN-N51**, **PA-ResGCN-N51**, **ResGCN-B19**, and **PA-ResGCN-B19** for the **cross-subject (X-sub)** and **cross-view (X-view)** benchmarks of the **NTU RGB+D 60** dataset and the **cross-subject (X-sub120)** and **cross-setup (X-set120)** benchmarks of the **NTU RGB+D 120** dataset.
 
-These models can be downloaded from [BaiduYun](https://pan.baidu.com/s/1iVZ2GfIhKNQq4YM3XZHiww) (Extraction code: **d3ea**) or [GoogleDrive](https://drive.google.com/drive/folders/1hb5fg1DMl_npwMIOn99RemscbAb1B3MM?usp=sharing).
+These models can be downloaded from [BaiduYun]() (Extraction code: **d3ea**) or [GoogleDrive](https://drive.google.com/drive/folders/1hb5fg1DMl_npwMIOn99RemscbAb1B3MM?usp=sharing).
 
 
 ## 3 Parameters
