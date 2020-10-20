@@ -69,7 +69,7 @@ Before training and evaluating, there are some parameters should be noticed.
 
 * (8) **'--dataset'** or **'-d'**: Choose the dataset. (Choice: **[ntu-xsub, ntu-xview, ntu-xsub120, ntu-xset120]**)
 
-* (9) **'--model_type'** or **'-mt'**: Choose the model. (Format: **{attention}-resgcn-{structure}-{reduction}**, attention: **[pa, ca, fa, sa, pca, psa]**, structure: **[b15, b19, b23, b29, n39, n51, n57, n75]**, reduction: **[r1, r2, r4, r8]**)
+* (9) **'--model_type'** or **'-mt'**: Choose the model. (Format: **{attention}-resgcn-{structure}-{reduction}**, attention: **[pa, ca, fa, sa, pca, psa, None]**, structure: **[b15, b19, b23, b29, n39, n51, n57, n75]**, reduction: **[r1, r2, r4, r8, None]**, e.g., resgcn-b19, resgcn-n51-r4, pa-resgcn-b19, pa-resgcn-n51-r4)
 
 Other parameters can be updated by modifying the corresponding config file in the **'configs'** folder or using command line to send parameters to the model, and the parameter priority is **command line > yaml config > default value**.
 
