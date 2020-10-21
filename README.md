@@ -131,12 +131,12 @@ where **'-ex'** can be removed if the data file **'extraction_`<config>`.npz'** 
 
 Top-1 Accuracy for the provided models on **NTU RGB+D 60 & 120** datasets.
 
-| models        | NTU Xsub  | NTU Xview | NTU Xsub120 | NTU Xset120 |
-| :-----------: | :-------: | :-------: | :---------: | :---------: |
-| ResGCN-N51    | 89.1%     | 93.5%     | 84.0%       | 84.2%       |
-| ResGCN-B19    | 90.3%     | 95.6%     | 86.6%       | 87.1%       |
-| PA-ResGCN-N51 | 90.0%     | 94.8%     | 85.2%       | 85.7%       |
-| PA-ResGCN-B19 | **90.9%** | **96.0%** | **87.3%**   | **88.3%**   |
+| models        | parameters | NTU Xsub  | NTU Xview | NTU Xsub120 | NTU Xset120 |
+| :-----------: | :--------: | :-------: | :-------: | :---------: | :---------: |
+| ResGCN-N51    | 0.77M      | 89.1%     | 93.5%     | 84.0%       | 84.2%       |
+| ResGCN-B19    | 1.14M      | 90.3%     | 95.6%     | 86.6%       | 87.1%       |
+| PA-ResGCN-N51 | 3.26M      | 90.0%     | 94.8%     | 85.2%       | 85.7%       |
+| PA-ResGCN-B19 | 3.64M      | **90.9%** | **96.0%** | **87.3%**   | **88.3%**   |
 
 ## 6 Citation and Contact
 
