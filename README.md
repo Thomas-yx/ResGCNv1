@@ -113,7 +113,7 @@ python main.py -c <config> -r
 
 ### 4.4 Evaluate
 
-Before evaluating, you should ensure that the trained model corresponding the config is already saved in the **'<--work_dir>'** folder. Then run
+Before evaluating, you should ensure that the trained model corresponding the config is already existed in the **<--pretrained_path>** or **'<--work_dir>'** folder. Then run
 ```
 python main.py -c <config> -e
 ```
