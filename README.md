@@ -98,7 +98,7 @@ python main.py -c <config> -gd
 ```
 where `<config>` is the config file name in the **'configs'** folder, e.g., 1001.
 
-**Note:** only training the NTU X-view benchmark with the PA-ResGCN-N51 (config: 1010) and PA-ResGCN-B19 (config: 1014) models requires this preprocessed data.
+**Note:** only training the NTU X-view benchmark with the PA-ResGCN-N51 (config: 1010) and PA-ResGCN-B19 (config: 1014) models require this preprocessed data.
 
 ### 4.3 Train
 
