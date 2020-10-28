@@ -148,7 +148,7 @@ Please cite our paper when you use this code in your reseach.
   author    = {Song, Yi-Fan and Zhang, Zhang and Shan, Caifeng and Wang, Liang},
   title     = {Stronger, Faster and More Explainable: A Graph Convolutional Baseline for Skeleton-Based Action Recognition},
   booktitle = {Proceedings of the 28th ACM International Conference on Multimedia (ACMMM)},
-  pages     = {1625–1633},
+  pages     = {1625--1633},
   year      = {2020},
   isbn      = {9781450379885},
   publisher = {Association for Computing Machinery},
